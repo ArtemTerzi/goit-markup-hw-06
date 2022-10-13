@@ -433,28 +433,28 @@
         <div class="main-form-inputs">
           <div class="form-item">
             <label class="form-label">Ім'я
+              <input type="text" name="name" class="form-input" autocomplete="off">
               <svg width="18px" height="18px" class="form-icon">
                 <use href="./images/icons.svg#icon-person-input"></use>
               </svg>
-              <input type="text" name="name" class="form-input">
             </label>
           </div>
 
           <div class="form-item">
             <label class="form-label">Телефон
+              <input type="tel" name="tel" class="form-input">
               <svg width="18px" height="18px" class="form-icon">
                 <use href="./images/icons.svg#icon-phone-input"></use>
               </svg>
-              <input type="tel" name="tel" class="form-input">
             </label>
           </div>
 
           <div class="form-item">
             <label class="form-label">Пошта
+              <input type="email" name="email" class="form-input">
               <svg width="18px" height="18px" class="form-icon">
                 <use href="./images/icons.svg#icon-email-input"></use>
               </svg>
-              <input type="email" name="email" class="form-input">
             </label>
           </div>
 
@@ -466,14 +466,15 @@
         </div>
 
         <label class="checkbox-label">
-          <input type="checkbox" name="agreement" class="checkbox">
+          <input type="checkbox" name="checkbox-agreement" class="checkbox visually-hidden">
           <svg width="16px" height="15px" class="icon-checkbox">
-            <use href="./images/icons.svg#icon-check-input"></use>
-          </svg>visually-hidden
-          Погоджуюся з розсилкою та приймаю <a href="./index.html" class="agreement-link">Умови договору</a>
+            <use href="./images/icons.svg#icon-check"></use>
+          </svg>
+          <span>Погоджуюся з розсилкою та приймаю <a href="./index.html" class="agreement-link">Умови договору</a>
+          </span>
         </label>
 
-        <button type="submit" class="button subscribe">Відправити</button>
+        <button type="submit" class="button subscribe modal-subscribe-button">Відправити</button>
       </form>
     </div>
   </div>
