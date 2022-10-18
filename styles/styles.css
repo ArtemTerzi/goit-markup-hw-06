@@ -489,10 +489,10 @@ ul {
 
 .input-container {
   position: relative;
+  margin-top: 4px;
 }
 
 .form-input {
-  margin-top: 4px;
   padding-left: 42px;
   height: 40px;
   width: 100%;
